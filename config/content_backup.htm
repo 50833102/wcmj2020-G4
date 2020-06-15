@@ -5,13 +5,52 @@
 <h2>衣</h2>
 <h2>住</h2>
 <h2>行</h2>
-<p>AI與交通的結合</p>
+<p><strong>AI與交通的結合</strong></p>
 <p>尖峰時間塞車，是都會區不可承受之重，而這樣的問題其實可以用<span>AI</span>來解決。由科技部補助的台大人工智慧中心與義隆電子提出「城市車流解決方案」，監控車流並彈性調整交通號誌，改善了<span>62%</span>的堵車狀況，不僅降低交通事故，還能節省<span>10 </span>分鐘的通勤時間。</p>
 <p>義隆電子旗下一碩科技提供硬體，搭配台大人工智慧中心的軟體研發所共同推出的解決方案，是將<span>360</span>度魚眼相機設置於路口，將所搜集的數據匯入雲端分析，運算最合適的紅綠燈秒數來調節車流。</p>
 <p>而業界出題，學界解題也讓這次的合作，有了不錯的成績。以竹北到竹科的實際應用為例，原本該路段行車時間為<span>16</span>分鐘，透過「城市車流解決方案」方案後減少至<span>6</span>分鐘，節省<span>10 </span>分鐘的通勤時間，改善幅度達<span>62</span>％，而交通事故從平均每個月<span>9.5</span>件降至<span>8</span>件。而該方案除了將在台南、高雄、台中、台北、桃園、嘉義等城市落地，目前也已進軍菲律賓宿霧，泰國交通部也規劃引進。</p>
 <p>設置於路口的「<span>360</span>度魚眼鏡頭」，將收集的車輛數據回傳雲端分析，並彈性調整交通號誌，紓解車流。現有的交通監測工具中，攝影機多半無法做到對車輛自動且精準的計算，而路口若要做到全景監測，得架上多部攝影機，多畫面的整合將會是個問題。</p>
 <p>而一碩科技所開發出的魚眼攝影機及校正晶片，搭載<span>AI</span>影像辨識技術，將每個路口的轉向車流統整之後，建立出車流的真實模型，解決難以監測的痛點。另外<span>360</span>度全景魚眼搭載同集團義晶科技所開發的<span>360</span>度全景魚眼修正晶片，將<span>360</span>度的影片解碼，降低對電腦運能算力的需求，也因此監控單位的電腦，能負荷數百個鏡頭回傳的畫面，現在一碩已在新竹<span>400</span>個路口裝設魚眼鏡頭。</p>
-<p> </p><h1>健康</h1>
+<p> <img alt="" height="225" src="/images/05.jpg" width="338"/></p>
+<p>AI與交通工具的結合</p>
+<p><strong>卷積類神經網路</strong> </p>
+<p>在深度學習的架構中，卷積類神經網路（<span>convolutional neural network, CNN</span>）是相當受歡迎的一個架構。<span>1989</span>年由<span>LeCun</span>等人提出的<span>CNN</span>架構，在手寫辨識分類或人臉辨識方面都有不錯的準確度。近年來，隨著<span>CPU</span>效能的提升與繪圖晶片平行化技術的發展，讓具高複雜度、費時的深度學習演算法在即時應用上露出曙光，透過繪圖晶片可讓訓練模組與測試的時間大幅縮短。伴隨著得以取得多樣的影像資料庫，<span>CNN </span>可觸及更多在照片與影片上的應用。例如近來接續發表的<span>AlexNet</span>、<span>ZF-Net</span>、<span>VGG Net</span>、<span>GoogLeNet</span>等，在精確度與效能上都有所改善，甚至在有些情況中可以超越人眼可辨識的範圍。</p>
+<p><strong>在影像上的技術發展</strong> </p>
+<p>深度學習在影像應用上正蓬勃發展，從物件分類、物件偵測、物件追蹤、行為分析至反應決策，無一不朝向提高準確度和效能的方向發展。以下介紹近年來在處理物件分類與物件辨識方向熱門的<span>CNN</span>網路架構與改進。</p>
+<p><strong>物件分類</strong></p>
+<p> 物件分類是分析一張照片中包含的物件種類，主要是先使用<span>convolutional layer</span>進行特徵擷取，再經由<span>fully- connected layer</span>合併特徵進行判斷。而在深度學習網路優劣評比中，<span>ILSVRC </span>（<span>ImageNet Large Scale Visual RecognitionCompetition</span>）是一種標竿排名比賽，方便研究者評估與比較物件偵測以及影像分類演算法。以下是幾個著名影像物件分類的網路架構：<span> </span></p>
+<p>LeNet─這是首先成功的<span>CNN</span>架構，由<span>LeCun</span>在<span>1990</span>年提出，見長於辨識數字和英文字母。</p>
+<p>AlexNet─第一個讓<span>CNN</span>網路架構開始在電腦視覺中蓬勃發展的網路，由<span>Alex Krizhevsky</span>、<span>Ilya Sutskever</span>和<span>Geoff Hinton</span>提出，並在<span>2012</span>年的<span>ILSVRC</span>比賽中比第二名取得了大幅度的領先（<span>Top 5 error 16</span>％，第二名是<span>26</span>％）。<span>AlexNet</span>的網路架構類似於<span>LeNet</span>，但更深、更大，並且開始使用多個層疊的<span>convolutional layer</span>，然後再連接<span>pooling layer</span>，有別於以往一層<span>convolutional layer</span>都會馬上連接一層<span>pooling layer</span>的架構。</p>
+<p>ZF-Net─由<span>Matthew Zeiler</span>和<span>Rob Fergus</span>所提出，並在<span>2013</span>年的<span>ILSVRC</span>取得優勝。他們提出了一個把<span>CNN</span>網路中間的特徵層取出並視覺化的方法，便於分析<span>CNN</span>架構不足的地方並加以改進。<span>ZF-Net</span>便是基於<span>AlexNet</span>的優化，活化<span>AlexNet</span>中無用的特徵，以得到更好的特徵擷取和辨識效果。</p>
+<p>VGGNet─由<span>Karen Simonyan</span>和<span>Andrew Zisserman</span>提出，最主要的貢獻是證明了<span>CNN</span>網路的深度對準確度的影響，愈深的網路提供愈好的準確度。但<span>VGGNet</span>的網路架構需要更高的計算複雜度，以及更高的記憶體需求。</p>
+<p>GoogLeNet─由<span>Google</span>提出，在<span>2014</span>年的<span>ILSVRC</span>中取得優勝。<span>GoogLeNet</span>提出了<span>inception module</span>，可以同時結合不同<span>level</span>的特徵，並可串連不同<span>scale</span>下的特徵提取值，讓網路可以更深，同時減少參數（例如<span>GoogLeNet</span>使用<span>400</span>萬個參數，<span>AlexNet</span>使用了<span>6,000</span>萬個參數，而<span>VGGNet</span>更需要<span>14,000</span>萬個參數），並擁有更好的辨識效果。</p>
+<p>ResNet—由<span>Kaiming He</span>等人提出，在<span>2015</span>年的<span>ILSVRC</span>中得到優勝。<span>ResNet</span>提出的架構可讓特徵值有捷徑跳至後幾層，讓<span>CNN</span>網路得以更深，並大量使用<span>batch normalization</span>，是目前最佳技術的<span>CNN</span>分類網路架構，但它的計算複雜度也最高。</p>
+<p><strong>物件偵測</strong> </p>
+<p>相較於物件分類，物件偵測的挑戰更加艱難，它是在一張影像中，需要同時定位物件的座標，再做出分類。現有技術已從最早期開始的遍數法，也就是把影像中所有可能性都使用<span>CNN</span>網路判斷，到後來提出在辨識上能更有效率的物件找尋方式。在評估物件偵測演算法優劣上，一般使用<span>PASCAL VOC </span>（<span>visual object classes</span>）這個開源的標準資料庫進行測試。以下介紹目前著名的物件偵測技術。</p>
+<p>Sliding windows─早期較原始的找尋目標方式，先把一張圖片由小到大的視窗，整張影像全部掃過一遍，並擷取掃過的影像，餵進<span>CNN</span>網路分類。這個方法簡單，但計算量非常大，不適合即時應用。</p>
+<p>Region proposal CNN network─這個技術是先對影像進行區域提取，透過演算法把影像切分為可能含有物件的區域，再擷取這些區域，提供給物件分類的<span>CNN</span>網路判別。著名的架構有<span>RCNN</span>、<span>Fast-RCNN</span>、<span>Faster-RCNN</span>等。<span>RCNN</span>使用<span>selective search</span>演算法進行區域提取，經過演算後，可以把一張影像取出許多個有可能的區域。但這演算法過於複雜，並且每個區域中進行<span>CNN</span>特徵提取時會重複計算，進而導致效能瓶頸。</p>
+<p>Fast-RCNN─改良自<span>RCNN</span>，加速了<span>RoI pooling layer</span>，使得<span>RoI pooling layer</span>可以把不同大小的輸入<span>mapping</span>到固定大小的層，並且改動<span>RCNN</span>的流程，先提取可能區域，然後做特徵提取，再從提取完成的特徵圖進行分類。這技術可以避免<span>RCNN</span>中特徵提取重複計算的問題，在保證精確度下提升運算速度。</p>
+<p>Faster-RCNN─<span>Faster-RCNN</span>更進一步使用<span>region proposal network</span>（<span>RPN</span>）取代原先的<span>selective search</span>，把可能區域的提取方式內嵌到<span>CNN</span>網路中，提供訓練和測試一個<span>end-to-end</span>的網路架構。<span>RPN layer</span>也改善了原先<span>selective search</span>只使用<span>CPU</span>運算的問題，把可能區域提取透過繪圖晶片加速。</p>
+<p>在<span>regional proposal CNN network</span>方面，目前常見的著名網路架構有<span>ZF+Faster-RCNN</span>、<span>VGG16+Faster-RCNN</span>、<span>R-ResNet-101+Faster-RCNN</span>、<span>PVANet</span>等，前兩個是使用<span>ZFNet</span>和<span>VGGNet</span>再加上<span>Faster-RCNN</span>架構產生的物件偵測網路。</p>
+<p>ResNet-101+Faster-RCNN是目前準確度最高的架構，準確率達到<span>83.8</span>％，但整體運算量非常大。<span>PVANet</span>則多導入了<span>C. ReLU module </span>以及改進了<span>inception module</span>，透過分析特徵層的特性，讓計算複雜度下降的同時擁有更好的精準度。在<span>PASCAL VOC2012 </span>中有<span>82.5</span>％的精準度，但運算量只有<span>ResNet-101+Faster-RCNN </span>的約十分之一。</p>
+<p>統一偵測─ 不同於<span>region proposal CNN network</span>，統一偵測（<span>unified detection</span>）對於物件偵測的方式不先提出可能區域再進行分類，而是直接把可能區域提取的方式轉為回歸問題。它透過預先設定好的幾個<span>bounding box</span>，利用<span>CNN</span>網路進行<span>bounding box</span>位置回歸以及可信度判斷，同時進行分類。這方法可大幅提升物件偵測的速度，但對於小的物件以及準確度仍有待改進。以下介紹幾個著名的<span>unified detection</span>物件偵測網路：</p>
+<p>You only look once（<span>YOLO</span>）─ 如其名，人眼在分別物體時並非先抓取位置再進行判斷，而是看到物體的同時辨識物件。<span>YOLO</span>提出了<span>unified detection</span>的物件偵測方式，透過預先設定好的<span>bounding box</span>，再透過縮放平移去貼近到物件邊緣同時判斷，因而大幅提升速度。但它的準確度尤其是對於較小的物件，表現較差。</p>
+<p> Single shot multibox detector─改良自<span>YOLO</span>網路架構，它把網路分為兩個結構：<span>feature extraction</span>和<span>auxiliary</span>。<span>Feature extraction</span>的部分與一般網路類似，用於特徵提取，<span>auxiliary</span>則是把提取出的特徵再進一步降低維度，讓最後的<span>fully-connected layer</span>同時結合不同維度的特徵，進行<span>bounding box</span>回歸和物件分類。相較於<span>YOLO</span>只使用單一維度的特徵進行判斷，這種方法可以有更佳的準確度，在<span>PASCAL VOC</span>有<span>82.2</span>％的平均準確度。</p>
+<p><strong>基於物件偵測的自駕車應用</strong> </p>
+<p>深度學習演算法擁有良好的精準度和穩定性，但伴隨的是較高的計算複雜度。然而這個演算法可以大量地平行化，因此適合利用繪圖晶片加速演算。訓練的策略也是機器學習很重要的一環，且要能夠在嵌入式系統上實現，因此它的網路架構必須設法精簡。自駕車在路上容易遇到的物件有車輛、機車騎士、行人等，鎖定這幾類物件偵測可以降低深度學習的複雜度，使得在同樣的精準度下達到更快的偵測速度。</p>
+<p>Pascal VOC2007 datasets中包含<span>20</span>類物件，如飛機、腳踏車、鳥、船、貓、狗等，自駕車所需的目標只需要偵測汽車、行人與機車騎士。由於機車騎士具備行人特徵，可由行人樣本來偵測，因此只需要從<span>Pascal VOC2007 datasets</span>的<span>20</span>類樣本中取其中兩類，汽車與行人，當作自駕車系統的一部分訓練樣本，就可訓練出自駕車所需要的模型。</p>
+<p><strong>距離偵測與前車防撞警示</strong> </p>
+<p>車距可以利用鏡頭水平拍攝後，藉由鏡頭的高度與焦距推算。在前車防撞警示方面，可利用車前方的相機擷取影像後，透過深度學習物件偵測演算法偵測物件。再由前述車距估算的方法對物件位置分類以及距離估算，並根據自駕車與前方車輛的距離調整安全距離，以避免前方車輛突然緊急煞車，導致自駕車煞車不及而追撞前方車輛。</p>
+<p><img alt="" height="298" src="/images/05-2.jpg" width="321"/></p>
+<p><strong>盲區危險警示</strong> </p>
+<p>駕駛人開車時，變換車道或轉向都應注意左右方車輛。而一般車輛在後照鏡的視覺上都有盲點，唯有透過轉頭才能注意到盲點區域的車輛。但在駕駛時轉頭又容易偏離車道或無法注意前方車況，同樣地自駕車也需考慮這問題。解決方案是藉由<span>AI</span>深度學習偵測物件，準確地辨識出左右後方區域中的物件，再整合所有資訊，透過鏡頭預先設定的基準線，可以判斷出偵測到的物件是否在需要警示的位置，並以相較於自身車輛的距離而警示。</p>
+<p> <strong>應用於路面標線標字偵測<span> </span></strong></p>
+<p>由於許多事故都是因汽車駕駛未遵循路上的標線或標字行駛而造成，因此當自駕車行駛在路上時須偵測並理解標線及標字。為使深度學習演算法訓練與偵測更加穩健，通常把路面由俯視轉為鳥瞰角度，建構可應用於馬路標線和標字偵測的模型，讓自駕車遵行路上的標線標字內容，而能安全地行駛在道路上。</p>
+<p><img alt="" height="255" src="/images/05-3.jpg" width="384"/></p>
+<p>資訊來源</p>
+<p><span><a href="https://scitechvista.nat.gov.tw/c/sTkg.htm">https://scitechvista.nat.gov.tw/c/sTkg.htm</a></span></p>
+<p><span><a href="https://www.bnext.com.tw/article/51602/ai-smart-city-traffic-fisheye">https://www.bnext.com.tw/article/51602/ai-smart-city-traffic-fisheye</a></span></p>
+<p><span><a href="https://fc.bnext.com.tw/turing-ai-bus/">https://fc.bnext.com.tw/turing-ai-bus/</a></span></p><h1>健康</h1>
 <p> </p>
 <h2>醫療體系</h2>
 <p> </p>
